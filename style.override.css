@@ -1,0 +1,59 @@
+/* Add any CSS overrides in this document */
+/* Footer color */
+#loginPage-footer
+{
+     background-color: #ffcccc  !important;
+}
+ 
+/* Main page background */
+#loginPage-content
+{
+    background-color: #00004d  !important;
+}
+
+/* Logo */
+#loginPage-contentHeader .loginPage-logo
+{
+    background-image: url(../Images/patriots.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#unsupportedBrowser-logo 
+{
+	background-image: url(../Images/patriots.png);
+}
+
+
+/* Left align dashboard canvas
+#application.application--isViewMode .design-surface-control .design-playground-resizable-container{
+    margin-left: 0;
+    margin-right: auto;
+}
+*/
+
+/* Hide help links
+.dialog.dialog--withHelp 
+{
+	display: none;
+}
+
+#aboutThisProduct
+{
+	display: none;
+}
+
+// Width of filter dropdown
+.parameterHierarchyPickerDropdown {
+    width: auto;
+}
+*/
+
+/* logon section 
+#loginPage.loginPage--isForgotPassword #loginPage-forgotPasswordForm-container, #loginPage.loginPage--isLogin #loginPage-loginForm-container, #loginPage.loginPage--isRegister #loginPage-registerForm-container 
+{
+    display: none;
+}
+*/
+@import url("dundas.controls.sample.stickynote.css");
